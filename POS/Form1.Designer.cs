@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.Button btnExit;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,6 +43,21 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // btnExit
+            // 
+            btnExit.BackColor = System.Drawing.Color.Red;
+            btnExit.FlatAppearance.BorderSize = 0;
+            btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            btnExit.ForeColor = System.Drawing.Color.White;
+            btnExit.Location = new System.Drawing.Point(317, 12);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new System.Drawing.Size(89, 39);
+            btnExit.TabIndex = 1;
+            btnExit.Text = "X";
+            btnExit.UseVisualStyleBackColor = false;
+            btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // panel1
             // 
@@ -76,6 +91,7 @@
             this.label1.Size = new System.Drawing.Size(207, 91);
             this.label1.TabIndex = 1;
             this.label1.Text = "POS";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -149,20 +165,6 @@
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnExit
-            // 
-            btnExit.BackColor = System.Drawing.Color.Red;
-            btnExit.FlatAppearance.BorderSize = 0;
-            btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            btnExit.ForeColor = System.Drawing.Color.White;
-            btnExit.Location = new System.Drawing.Point(317, 12);
-            btnExit.Name = "btnExit";
-            btnExit.Size = new System.Drawing.Size(89, 39);
-            btnExit.TabIndex = 1;
-            btnExit.Text = "X";
-            btnExit.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 

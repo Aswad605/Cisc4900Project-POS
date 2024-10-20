@@ -124,7 +124,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAF7cSURBVHhe7d0H
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAF7cSURBVHhe7d0H
         dB3lmT5w1KslyypWlyzLVu+Se+9drnKRTTW4ggGDbcAsZMMmEJJsKAkECKQXkpBssimEJEs2PSGETWfp
         JfQOoSSB7/9++q8Ty37s+abce7+593nO+Z09Z4PvzGjuvO97586dOYFhjpMGcbX4o3hd/EX8j3ivqBKx
         Tro4UXxLPCPeEU+J/xBrRbKIderFv4s/CP031H4rrhA1ItZJE5vEN8Shv+HT4j/FepEiGIZhmASJLvqX
@@ -532,7 +532,4 @@
         J3RRfUH8XaCiSxQtr4gnxX3iJ+LT4qAYEHWCYZiY5IQT/h9B192UHuG7XwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="btnExit.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
 </root>

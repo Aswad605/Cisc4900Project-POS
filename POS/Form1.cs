@@ -39,7 +39,19 @@ namespace POS
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Work_Station work_Station = new Work_Station();
+            work_Station.Show();
+        }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); 
         }
     }
 }
